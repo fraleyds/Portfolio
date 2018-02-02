@@ -1,9 +1,20 @@
 /* Global stylings */
-nav {
-    background-color: #447889;
+body {
+    overflow-x: hidden;
+    margin: 0;
 }
+
 /* Navbar stylings */
+nav {
+    background-color: #124758;
+}
+
 /* Header stylings */
+#particles-js {
+    width: 100vw;
+    height: 60vh;
+    background: #6995A3;
+}
 /* Portfolio stylings */
 /* About stylings */
 /* Contact stylings */

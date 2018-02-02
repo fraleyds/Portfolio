@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,30 +20,34 @@
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#header">David Fraley</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+            aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">My Projects</a>
+                    <a class="nav-link js-scroll-trigger" href="#projects">My Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact Me</a>
+                    <a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!-- Header -->
-    <header id="header">
+    <header id="header" class="header">
+        <div id="particles-js">
+        </div>
     </header>
 
     <!-- Portfolio -->
@@ -63,7 +68,7 @@
 
     <!-- Copyright -->
 
-    <!-- Modals --> 
+    <!-- Modals -->
 
     <!-- Scripts -->
 
@@ -73,7 +78,16 @@
 
     <!-- jQuery 3rd Party Scripts -->
 
+    <!-- particles.js -->
+    <script src="node_modules/particles.js/particles.js"></script>
+
     <!-- Custom scripts for this template -->
     <script src="js/main.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function () {
+            console.log('particles.json loaded...')
+        })
+    </script>
 </body>
+
 </html>
