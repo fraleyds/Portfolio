@@ -1,16 +1,16 @@
 {
     "particles": {
         "number": {
-            "value": 300
+            "value": 400
         },
         "color": {
-            "value": "#8D5519"
+            "value": "#886616"
         },
         "shape": {
             "type": "circle",
             "stroke": {
-                "width": 3,
-                "color": "#FFE4C8"
+                "width": 1,
+                "color": "#B28E38"
             }
         },
         "opacity": {
