@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,51 +20,148 @@
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#header">David Fraley</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+            aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">My Projects</a>
+                    <a class="nav-link js-scroll-trigger" href="#projects">My Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact Me</a>
+                    <a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!-- Header -->
-    <header id="header">
+    <header id="header" class="header">
+        <div id="particles-js">
+        </div>
+        <div id="title">
+            <h1>David Fraley</h1>
+            <h2>Indy-based Junior Web Developer</h2>
+        </div>
     </header>
 
     <!-- Portfolio -->
-    <section id="projects">
-    </section>
+    <div class="wrapper text-white">
+        <div class="body-wrapper">
+            <section id="projects">
+                <br/>
+                <h2 class="project-text">My Projects</h2>
+                <br/>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <img src="assets/img/campsite.png">
+                            <div class="text-center caption">
+                                <h3>Campsite</h3>
+                                <p>.NET MVC Camping supply rental app</p>
+                                <p>
+                                    <a href="#" class="btn btn-primary" role="button">Button</a>
+                                    <a href="#" class="btn btn-primary" role="button">Button</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <img src="assets/img/ElevenNoteThumbnail.png">
+                            <div class="text-center caption">
+                                <h3>ElevenNote</h3>
+                                <p>.NET MVC note-taking CRUD app</p>
+                                <p>
+                                    <a href="#" class="btn btn-primary" role="button">Button</a>
+                                    <a href="#" class="btn btn-primary" role="button">Button</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <img src="assets/img/pacman.png">
+                            <div class="text-center caption">
+                                <h3>Pac-Man Challenge</h3>
+                                <p>Speed-coded Console App for a challenge</p>
+                                <p>
+                                    <a href="#" class="btn btn-primary" role="button">Button</a>
+                                    <a href="#" class="btn btn-primary" role="button">Button</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-    <!-- About -->
-    <section id="about">
-    </section>
+                </div>
+            </section>
 
-    <!-- Contact -->
-    <section id="contact">
-    </section>
+            <!-- About -->
+            <section id="about">
+                <br/>
+                <h2 class="project-text">About</h2>
+                <div class="row">
+                    <div class="col-lg-4 about-text">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quaerat amet, ducimus cumque
+                            mollitia accusamus eveniet, quidem atque consequatur dolor iusto explicabo vero cupiditate exercitationem
+                            eligendi. Aliquid expedita recusandae ad?</p>
+                    </div>
+                    <div class="col-lg-4 about-text">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quaerat amet, ducimus cumque
+                            mollitia accusamus eveniet, quidem atque consequatur dolor iusto explicabo vero cupiditate exercitationem
+                            eligendi. Aliquid expedita recusandae ad?</p>
+                    </div>
+                    <div class="col-lg-4 about-text">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quaerat amet, ducimus cumque
+                            mollitia accusamus eveniet, quidem atque consequatur dolor iusto explicabo vero cupiditate exercitationem
+                            eligendi. Aliquid expedita recusandae ad?</p>
+                    </div>
+                </div>
+            </section>
 
-    <!-- Footer -->
-    <footer>
-    </footer>
+            <!-- Contact -->
+            <section id="contact">
+                <br>
+                <h2 class="project-text">Contact Me</h2>
+                <div class="form-wrapper">
+                    <form action="https://formspree.io/fraleyds@gmail.com" method="POST">
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input class="form-control" type="email" name="_replyto">
+                        </div>
+                        <div class="form-group">
+                            <label>Your Message</label>
+                            <textarea name="form-control" rows="5"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                    <br>
+                </div>
+            </section>
+        </div>
+        <br>
+        <br>
+        <!-- Footer -->
+        <footer class="footer">
+            <a class="navbar-brand" href="#">Fixed bottom</a>
+        </footer>
+    </div>
+
 
     <!-- Copyright -->
 
-    <!-- Modals --> 
+    <!-- Modals -->
 
     <!-- Scripts -->
 
@@ -73,7 +171,16 @@
 
     <!-- jQuery 3rd Party Scripts -->
 
+    <!-- particles.js -->
+    <script src="node_modules/particles.js/particles.js"></script>
+
     <!-- Custom scripts for this template -->
     <script src="js/main.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function () {
+            console.log('particles.json loaded...')
+        })
+    </script>
 </body>
+
 </html>
