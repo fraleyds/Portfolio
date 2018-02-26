@@ -1,0 +1,30 @@
+/* Global stylings */
+html {
+    position: relative;
+    height: 100%;
+}
+body {
+    position: relative;
+    overflow-x: hidden;
+    margin: 0;
+    /* padding-bottom: 60px; */
+    height: 100%;
+}
+.btn {
+    color: #fff;
+    background: #124758;
+}
+.btn:hover {
+    color: #fff;
+    background: #417586;
+}
+.wrapper {
+    position: relative;
+    top: 30vw;
+    width: 100%;
+}
+.body-wrapper {
+    width: 90vw;
+    position: relative;
+    left: 5vw;
+}
