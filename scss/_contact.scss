@@ -1,0 +1,35 @@
+/* Contact stylings */
+#contact {
+    margin: 0;
+    text-align: left;
+    position: relative;
+    background: #124758;
+    border-radius: 0 0 0.5em 0.5em;
+}
+#contact .btn {
+    color: #fff;
+    background: #265D6F;
+}
+#contact .btn:hover {
+    color: #fff;
+    background: #417586;
+}
+
+.contact-label {
+    position: relative;
+    left: 5%;
+}
+
+.form-item {
+    border-radius: 8px;
+    display: block;
+    position: relative;
+    left: 5%;
+    padding: 0.25em 0.5em;
+    width: 90%;
+    font-size: 16px;
+}
+
+.contact-text {
+    font-size: 150%;
+}

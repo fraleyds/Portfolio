@@ -1,0 +1,38 @@
+/* Header stylings */
+#canvas {
+    display: block;
+    position: fixed;
+    top: 0;
+    background: #6995A3;
+}
+#title {
+    position: relative;
+    top: 20vw;
+    left: 10vw;
+    z-index: 1;
+    color: #03303F;
+}
+#title h1 {
+    font-size: calc(18px + 2.5vw);
+}
+#title h2 {
+    font-size: calc(14px + 1.75vw);
+}
+#links {
+    position: relative; 
+    top: 21vw;
+    left: 10vw;
+    z-index: 3;
+}
+#links .btn {
+    color: #03303F;
+    font-weight: 700;
+    background: none;
+    border: #03303F solid 2px;
+    margin: 0.3em;
+}
+#links .btn:hover {
+    color: #fff;
+    background: #417586;
+    border: #417586 solid 2px;
+}
