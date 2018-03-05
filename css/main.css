@@ -125,7 +125,8 @@ body {
   font-size: 16px; }
 
 .contact-text {
-  font-size: 150%; }
+  font-size: 150%;
+  font-weight: 200; }
 
 /* Footer stylings */
 .body-wrapper.footer {
