@@ -235,7 +235,7 @@
     <!-- Scripts -->
 
     <!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
@@ -243,28 +243,6 @@
         crossorigin="anonymous"></script>
 
     <!-- jQuery 3rd Party Scripts -->
-    <script js>
-        $('body').scrollspy({ target: ".navbar", offset: 50 });
-
-        $(".navbar a").on('click', function (event) {
-
-            if (this.hash !== "") {
-
-                event.preventDefault();
-
-                var hash = this.hash;
-
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 400, function () {
-
-                    window.location.hash = hash;
-                });
-
-            }
-
-        });
-    </script>
 
 
     <!-- Custom scripts for this template -->
