@@ -1,3 +1,4 @@
+// Script to make scrollspy work
 $('body').scrollspy({ target: ".navbar", offset: 50 });
 
 $(".navbar a").on('click', function (event) {
@@ -19,6 +20,7 @@ $(".navbar a").on('click', function (event) {
 
 });
 
+// Script for canvas, largely following tutorials on YouTube by Chris Courses
 var canvas = document.querySelector('canvas');
 
 canvas.width = window.innerWidth;
