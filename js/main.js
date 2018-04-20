@@ -60,6 +60,12 @@ window.addEventListener('resize',
     }
 )
 
+window.addEventListener('click',
+    function () {
+        colorChange();
+    }
+)
+
 function Circle(x, y, dx, dy, radius) {
     this.x = x;
     this.y = y;
@@ -113,7 +119,7 @@ function init() {
     circleArray = [];
 
     for (var i = 0; i < 1500; i++) {
-        var radius = Math.random() * 3 + 1;
+        var radius = Math.random() * 5 + 1;
         var x = Math.random() * (innerWidth - radius * 2) + radius;
         var y = Math.random() * (innerHeight - radius * 2) + radius;
         var dx = (Math.random() - 0.5);
@@ -129,6 +135,12 @@ function animate() {
 
     for (var i = 0; i < circleArray.length; i++) {
         circleArray[i].update();
+    }
+}
+
+function colorChange() {
+    for (var i = 0; i < circleArray.length; i++) {
+        circleArray[i].color = colorArray[Math.floor(Math.random() * colorArray.length)];
     }
 }
 
